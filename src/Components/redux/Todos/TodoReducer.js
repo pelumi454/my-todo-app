@@ -1,14 +1,14 @@
 import {UpdateReducer} from '../Utils'
 
 
-const fetchStart = (state, action) => {
+export const fetchStart = (state, action) => {
     return UpdateReducer(state, {
         error: null,
         isLoading: true
     })
 }
 
-const fetchSuccess = (state, action) => {
+export const fetchSuccess = (state, action) => {
     return UpdateReducer(state, {
         error: null,
         isLoading: false,
@@ -16,7 +16,7 @@ const fetchSuccess = (state, action) => {
     })
 }
 
-const fetchFail = (state, action) => {
+export const fetchFail = (state, action) => {
     return UpdateReducer(state, {
         isLoading: false,
         error: action.error
