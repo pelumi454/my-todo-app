@@ -1,6 +1,4 @@
 import React from 'react'
-import HomePage from './Components/HomePage'
-import Navbar from './Components/Navbar';
 import Routes from './routes'
 
 
