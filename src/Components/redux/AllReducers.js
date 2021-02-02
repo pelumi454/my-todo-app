@@ -15,6 +15,9 @@ const allReducer = (state = InitialState, action) => {
             return fetchSuccess (state, action)
         case actionTypes.FETCH_FAIL:
             return fetchFail (state, action)
+            default:
+                return state
+            
     }
 }
 

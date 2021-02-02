@@ -18,12 +18,5 @@ function App() {
   );
 }
 
-// const mapStateToProps = state => ({
-//   isLoading: () => state.isLoading !== false
-// })
-
-// // const mapDispatchToProps = dispatch => ({
-// //   fetchTodos: () => dispatch(actions.fetchTodos())
-// // })
 
 export default App;
