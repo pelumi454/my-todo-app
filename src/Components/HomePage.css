@@ -68,17 +68,11 @@
     }
 
     .blob1-img{
-        width: 15%;
-        position: absolute;
-        right: 1200px;
-        bottom: 20px;
+       display: none;
     }
 
     .blob3-img{ 
-        width: 15%;
-        position: relative;
-        left: 220px;
-        bottom: 700px;
+       display: none;
     }
 
     .homepage-h2{
@@ -106,5 +100,13 @@
         top: 450px;
         left: 45px;
         height: 50px;
+    }
+
+    .blob1-img{
+        width: 15%;
+    }
+
+    .blob3-img{ 
+        width: 15%;
     }
 }
