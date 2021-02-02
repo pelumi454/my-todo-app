@@ -1,19 +1,13 @@
 import React from 'react'
 import HomePage from './Components/HomePage'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import SignUp from './Components/SignUp';
+import Navbar from './Components/Navbar';
+import Routes from './routes'
 
 
 function App() {
   return (
     <div className="App">
-          <Router>
-            <HomePage/>
-        <Switch>
-        <Route exact path='/sign-up' component={SignUp} />
-        </Switch>
-       </Router>
-      
+            <Routes/>
     </div>
   );
 }
