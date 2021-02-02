@@ -1,11 +1,8 @@
 import React from 'react'
-import {connect} from 'react-redux'
-import * as actions from './Components/redux/Todos/TodoAction';
 import HomePage from './Components/HomePage'
-import Navbar from './Components/Navbar'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SignUp from './Components/SignUp';
-import image1 from './Images/blobs.svg'
+
 
 function App() {
   return (

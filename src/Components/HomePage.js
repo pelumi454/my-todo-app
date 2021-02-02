@@ -1,6 +1,5 @@
 import React from "react";
 import './HomePage.css'
-
 import image2 from '../Images/blobbs.jpg'
 import image3 from '../Images/blob3.svg'
 // import image4 from '../Images/blob4.svg'
